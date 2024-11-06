@@ -8,7 +8,7 @@ Voici par exemple mon nombre de soumissions de code lors de mon premier mois sur
 
 **Données utilisées :** Le jeu de données utilisé provient de la société dans laquelle j'ai effectué mon stage de fin d'études, réalisé dans le cadre de mon master Méthodes Stochastiques et Informatiques pour la Décision. Les variables et les valeurs ont donc été modifiées pour des raisons de confidentialité. C'est pourquoi la variable dont on étudiera l'évolution est le Simflouz.
 
-**Approche :** Qui dit heatmap dit matrice. Il est important de distinguer les mois donc créer une matrice par mois semble naturel. Pour ce qui est de la forme de la matrice, on veut également trier les dates par semaines, ce qui complique déjà les choses. Une des dimensions sera de longueur 7 pour chaque jour de la semaine, et l'autre sera variable selon le nombre de semaines (merci à la norme ISO 8601 pour sa rigueur).
+**Approche :** Qui dit heatmap dit matrice. Il est important de distinguer les mois donc créer une matrice par mois semble naturel. Pour ce qui est de la forme de la matrice, on veut également trier les dates par semaine, ce qui complique déjà les choses. Une des dimensions sera de longueur 7 pour chaque jour de la semaine, et l'autre sera variable selon le nombre de semaines (merci à la norme ISO 8601 pour sa rigueur).
 
 Reste à remplir la matrice avec les valeurs voulues selon deux contraintes :
 - Contrainte d'espace : Chaque jour doit être placé dans la bonne case de la matrice selon le numéro du jour de la semaine et la semaine associée, dans le bon mois.
